@@ -1,4 +1,4 @@
-# Datamatrix API
+# QR REST API Container
 
 Simple API that will encode and decode QR 2D barcodes.
 Based on https://github.com/dwimberger/spark-qr
@@ -15,7 +15,7 @@ Based on https://github.com/dwimberger/spark-qr
   curl localhost:4567/qr/`uuidgen` > test.png
 ```
 
-## Decode datamatrix code
+## Decode QR code
 
 ```
   curl -F "image=@test.png" http://localhost:4567/qr
