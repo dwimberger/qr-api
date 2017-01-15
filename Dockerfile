@@ -7,7 +7,7 @@ EXPOSE 4567
 RUN apk add --no-cache openssl
 RUN mkdir /qr
 WORKDIR /qr
-RUN wget https://github.com/dwimberger/spark-qr/releases/download/0.0.1/spark-qr-0.0.1.jar
-CMD ["java","-jar","spark-qr-0.0.1.jar"]
+RUN wget https://github.com/dwimberger/spark-qr/releases/download/0.0.2/spark-qr-0.0.2.jar
+CMD ["java","-jar","spark-qr-0.0.2.jar"]
 
 
