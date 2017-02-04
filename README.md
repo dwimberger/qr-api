@@ -21,3 +21,6 @@ Based on https://github.com/dwimberger/spark-qr
   curl -F "image=@test.png" http://localhost:4567/qr
 ```
 
+## QR Prefix
+
+Use the environment variable QR_PREFIX to generate QR codes with an arbitrary prefix (for example an URL).
